@@ -2,25 +2,25 @@ from conans import ConanFile, tools, os
 
 class BoostUnitsConan(ConanFile):
     name = "Boost.Units"
-    version = "1.64.0"
+    version = "1.65.1"
     short_paths = True
     url = "https://github.com/bincrafters/conan-boost-units"
-    description = "Please visit http://www.boost.org/doc/libs/1_64_0/libs/libraries.htm"
+    description = "Please visit http://www.boost.org/doc/libs/1_65_1/libs/libraries.htm"
     license = "www.boost.org/users/license.html"
     lib_short_names = ["units"]
-    requires =  "Boost.Assert/1.64.0@bincrafters/testing", \
-                      "Boost.Config/1.64.0@bincrafters/testing", \
-                      "Boost.Core/1.64.0@bincrafters/testing", \
-                      "Boost.Integer/1.64.0@bincrafters/testing", \
-                      "Boost.Io/1.64.0@bincrafters/testing", \
-                      "Boost.Lambda/1.64.0@bincrafters/testing", \
-                      "Boost.Math/1.64.0@bincrafters/testing", \
-                      "Boost.Mpl/1.64.0@bincrafters/testing", \
-                      "Boost.Preprocessor/1.64.0@bincrafters/testing", \
-                      "Boost.Serialization/1.64.0@bincrafters/testing", \
-                      "Boost.Static_Assert/1.64.0@bincrafters/testing", \
-                      "Boost.Type_Traits/1.64.0@bincrafters/testing", \
-                      "Boost.Typeof/1.64.0@bincrafters/testing"
+    requires =  "Boost.Assert/1.65.1@bincrafters/testing", \
+                      "Boost.Config/1.65.1@bincrafters/testing", \
+                      "Boost.Core/1.65.1@bincrafters/testing", \
+                      "Boost.Integer/1.65.1@bincrafters/testing", \
+                      "Boost.Io/1.65.1@bincrafters/testing", \
+                      "Boost.Lambda/1.65.1@bincrafters/testing", \
+                      "Boost.Math/1.65.1@bincrafters/testing", \
+                      "Boost.Mpl/1.65.1@bincrafters/testing", \
+                      "Boost.Preprocessor/1.65.1@bincrafters/testing", \
+                      "Boost.Serialization/1.65.1@bincrafters/testing", \
+                      "Boost.Static_Assert/1.65.1@bincrafters/testing", \
+                      "Boost.Type_Traits/1.65.1@bincrafters/testing", \
+                      "Boost.Typeof/1.65.1@bincrafters/testing"
 
                       #assert1 config0 core2 integer3 io1 lambda6 math8 mpl5 preprocessor0 serialization11 static_assert1 type_traits3 typeof5
                       

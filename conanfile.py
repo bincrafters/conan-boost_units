@@ -8,19 +8,19 @@ class BoostUnitsConan(ConanFile):
     description = "Please visit http://www.boost.org/doc/libs/1_65_1/libs/libraries.htm"
     license = "www.boost.org/users/license.html"
     lib_short_names = ["units"]
-    requires =  "Boost.Assert/1.65.1@bincrafters/testing", \
-                      "Boost.Config/1.65.1@bincrafters/testing", \
-                      "Boost.Core/1.65.1@bincrafters/testing", \
-                      "Boost.Integer/1.65.1@bincrafters/testing", \
-                      "Boost.Io/1.65.1@bincrafters/testing", \
-                      "Boost.Lambda/1.65.1@bincrafters/testing", \
-                      "Boost.Math/1.65.1@bincrafters/testing", \
-                      "Boost.Mpl/1.65.1@bincrafters/testing", \
-                      "Boost.Preprocessor/1.65.1@bincrafters/testing", \
-                      "Boost.Serialization/1.65.1@bincrafters/testing", \
-                      "Boost.Static_Assert/1.65.1@bincrafters/testing", \
-                      "Boost.Type_Traits/1.65.1@bincrafters/testing", \
-                      "Boost.Typeof/1.65.1@bincrafters/testing"
+    requires =  "Boost.Assert/1.65.1@bincrafters/stable", \
+                      "Boost.Config/1.65.1@bincrafters/stable", \
+                      "Boost.Core/1.65.1@bincrafters/stable", \
+                      "Boost.Integer/1.65.1@bincrafters/stable", \
+                      "Boost.Io/1.65.1@bincrafters/stable", \
+                      "Boost.Lambda/1.65.1@bincrafters/stable", \
+                      "Boost.Math/1.65.1@bincrafters/stable", \
+                      "Boost.Mpl/1.65.1@bincrafters/stable", \
+                      "Boost.Preprocessor/1.65.1@bincrafters/stable", \
+                      "Boost.Serialization/1.65.1@bincrafters/stable", \
+                      "Boost.Static_Assert/1.65.1@bincrafters/stable", \
+                      "Boost.Type_Traits/1.65.1@bincrafters/stable", \
+                      "Boost.Typeof/1.65.1@bincrafters/stable"
 
                       #assert1 config0 core2 integer3 io1 lambda6 math8 mpl5 preprocessor0 serialization11 static_assert1 type_traits3 typeof5
                       

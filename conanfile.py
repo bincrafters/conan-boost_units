@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostUnitsConan(ConanFile):
     name = "boost_units"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-units"
+    url = "https://github.com/bincrafters/conan-boost_units"
 
     lib_short_names = ["units"]
     is_header_only = True

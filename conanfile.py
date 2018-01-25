@@ -8,7 +8,8 @@ class BoostUnitsConan(ConanFile):
     name = "boost_units"
     version = "1.66.0"
     url = "https://github.com/bincrafters/conan-boost_units"
-
+    author = "Bincrafters <bincrafters@gmail.com>"
+    exports = ["LICENSE.md"]
     lib_short_names = ["units"]
     is_header_only = True
 

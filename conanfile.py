@@ -8,6 +8,7 @@ base = python_requires("boost_base/1.68.0@bincrafters/stable")
 
 class BoostUnitsConan(base.BoostBaseConan):
     name = "boost_units"
+    version = "1.68.0"
     url = "https://github.com/bincrafters/conan-boost_units"
     lib_short_names = ["units"]
     header_only_libs = ["units"]
